@@ -1,0 +1,48 @@
+$font-color: #333;
+$radius: 8px;
+
+
+.m-account{
+
+
+
+  .u-form {
+    width: 585px;
+    margin: 0 auto;
+
+    .m-tel {
+      .u-code {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+      .ant-btn {
+        width: 100%;
+        height: 36px;
+      }
+
+      .u-tel {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left: 0;
+      }
+    }
+
+    .ant-legacy-form-explain {
+      // text-align: center;
+    }
+
+    .ant-input {
+      height: 36px;
+    }
+
+    .u-next {
+      margin: 50px 0;
+      text-align: center;
+      button {
+        width: 130px;
+        height: 36px;
+      }
+    }
+  }
+
+}

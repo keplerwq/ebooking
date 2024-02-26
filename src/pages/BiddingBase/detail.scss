@@ -1,0 +1,27 @@
+.base-detail {
+  .b-header {
+    padding-left: 18px;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    margin: 16px 18px;
+    &:before {
+      content: "";
+      width: 0;
+      height: 100%;
+      border: 2px solid #3369e5;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  .text-gray {
+    color: #adadad;
+  }
+}
+.base-detail-pdf-modal .ant-modal {
+  width: 1200px!important;
+  .ant-modal-body {
+    text-align: center;
+  }
+}

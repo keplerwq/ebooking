@@ -1,0 +1,102 @@
+$font-color: #333;
+$radius: 8px;
+
+.m-sation-company {
+  // text-align: center;
+  .m-upload-wrapper {
+    display: inline-block;
+  }
+  .u-upload-desc {
+    line-height: 22px;
+    display: inline-block;
+    p {
+      margin-bottom: 0px;
+    }
+  }
+  .u-form {
+    width: 1134px;
+    margin: 0 auto;
+
+    .u-radio-gp {
+      text-align: left;
+    }
+
+    .m-tel {
+      .u-prefix {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+
+      .u-tel {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left: 0;
+      }
+    }
+
+    .u-operate-icon {
+      .anticon {
+        font-size: 28px;
+        margin-top: 6px;
+      }
+    }
+    .u-uploader {
+      width: 75px;
+      height: 75px;
+    }
+  }
+
+  .u-next {
+    margin: 50px 0;
+    text-align: center;
+
+    button {
+      width: 130px;
+      height: 36px;
+    }
+  }
+  .u-section {
+    margin-bottom: 20px;
+  }
+  .u-card {
+    .ant-card-body {
+      padding: 24px 16px !important;
+    }
+    .ant-card-head {
+      padding: 0 16px !important;
+    }
+    .ant-table-thead > tr > th,
+    .ant-table-tbody > tr > td {
+      padding: 15px 5px;
+    }
+  }
+  .ant-legacy-form-item-required::before {
+    content: "";
+  }
+  .ant-legacy-form-item-required::after {
+    display: inline-block;
+    margin-left: 4px;
+    color: #f5222d;
+    font-family: SimSun, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    content: "*" !important;
+  }
+  .ant-table-tbody {
+    width: 100%;
+  }
+  .m-upload-has-control {
+    .ant-upload.ant-upload-select {
+      display: none;
+    }
+    .ant-upload-list-item-info {
+      padding: 0 24px 0 4px;
+    }
+    .ant-upload-list-item .anticon-close {
+      opacity: 1 !important;
+    }
+    .ant-upload-list-item .ant-upload-list-item-info {
+      background-color: inherit !important;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.c-op-header {
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  &:before {
+    content: '';
+    width: 0;
+    height: 100%;
+    border: 2px solid #3369e5;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  span.name {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 18px;
+  }
+
+  a.op {
+    font-size: 14px;
+    span {
+      padding: 5px;
+    }
+    img {
+      width: 19px;
+      height: 19px;
+      vertical-align: middle;
+      margin-bottom: 4px;
+
+    }
+  }
+
+  .submit {
+    position: absolute;
+    right: 20px;
+    top: 0;
+  }
+}

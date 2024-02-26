@@ -1,0 +1,37 @@
+.g-menu-title {
+  .ant-menu-item-selected {
+    border: 0;
+    background: #fff;
+    a {
+      color: #1890ff;
+    }
+  }
+
+  .menu-title-bread {
+    display: inline-block;
+    min-width: 140px;
+    border-radius: 8px 8px 0 0;
+    padding: 0 20px;
+    color: #b8b8b8;
+    font-size: 14px;
+    img {
+      transform: rotate(90deg);
+      margin: 0 5px 3px 0;
+    }
+    
+    span {
+      color: #333;
+    }
+    a {
+      color: #999;
+      // margin-right: 6px;
+      label {
+        margin: 0 6px;
+      }
+
+      &:hover {
+        color: #1890ff;
+      }
+    }
+  }
+}

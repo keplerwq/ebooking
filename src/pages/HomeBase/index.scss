@@ -1,0 +1,31 @@
+.home-base {
+  margin: 30px 20px;
+  background-color: #fff;
+  .fr {
+    float: right;
+    clear: both;
+  }
+  .text-green {
+    color: #70b603;
+  }
+  .text-gray {
+    color: #aaaaaa;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  .pointer:hover {
+    color: #4681fe;
+  }
+  .ant-spin-nested-loading {
+    margin-top: 20px;
+  }
+  .ant-list {
+    padding: 0 30px 20px;
+  }
+
+  .ant-list-item,
+  .ant-list-item:last-child {
+    border-bottom: none !important;
+  }
+}

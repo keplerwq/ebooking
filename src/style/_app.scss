@@ -1,0 +1,171 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  color: $font-black;
+  min-width: 1180px;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: 180px;
+  height: $header-height;
+  padding: 0px 0px;
+  float: left;
+  color: #fff;
+  font-size: 24px;
+  background: #242831;
+}
+
+.layout {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: $header-height;
+  .layout-main {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    padding-left: 180px;
+    .layout-menu {
+      width: 180px;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-right: 1px solid #e8e3e3;
+      .ant-menu {
+        width: 180px; // 菜单选中项
+        li.ant-menu-item {
+          line-height: 42px;
+          img {
+            position: relative;
+            top: -2px;
+            vertical-align: middle;
+            margin-right: 8px;
+          }
+        }
+        a {
+          padding: 0 40px;
+          margin: 0 -15px 0 -16px;
+          color: #333 !important;
+          border-left: 2px solid white;
+          background: #fff !important;
+          &:active {
+            background: #fff !important;
+          }
+          img.normal {
+            display: inline-block;
+          }
+          img.sel {
+            display: none;
+          }
+        }
+        a.active {
+          color: #4680fe !important;
+          background: #edeef1 !important;
+          border-left: 2px solid #4680fe !important;
+          &:before {
+            width: 4px;
+            height: 100%;
+            background: #4680fe;
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+          img.normal {
+            display: none;
+          }
+          img.sel {
+            display: inline-block;
+          }
+        }
+      }
+    }
+    .layout-content {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+  }
+}
+
+// tooltip
+i.icon-info {
+  font-size: 10px;
+  color: #999 !important;
+}
+
+.btn-hover-red {
+  box-shadow: none !important;
+  &:hover {
+    color: #CC0000 !important;
+    border-color: #CC0000 !important;
+  }
+  &:active {
+    color: #CC0000 !important;
+    border-color: #CC0000 !important;
+  }
+  &:focus {
+    color: #CC0000 !important;
+    border-color: #CC0000 !important;
+  }
+  &.ant-btn-clicked {
+    &:after {
+      border-color: #CC0000 !important;
+    }
+    border-color: #CC0000 !important;
+  }
+}
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+.m-search {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 16px 19px 6px 19px;
+  margin-bottom: 10px;
+  button {
+    margin-left: 10px;
+    &:first-child{
+      margin-left: 0;
+    }
+  }
+  .search-item {
+    margin: 0 19px 10px 0;
+
+    label {
+      margin-right: 10px;
+      display: inline-block;
+      text-align: right;
+    }
+    .u-search-item {
+      width: 200px;
+    }
+
+  }
+}
+
+.u-span{
+  color: #999;
+}
+
+.g-content {
+  background: #fff;
+  padding: 10px;
+}
+

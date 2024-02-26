@@ -1,0 +1,20 @@
+.modalFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inlineFormItem {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.formItemName {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 24px;
+}
+
+.formItemGender {
+    width: 25%;
+}

@@ -1,0 +1,8 @@
+[auth]
+token = 60220e20010146f3bd5c476a2cd4ed2c72d6a64809044c46a5fe52dd0916b718
+dsn = https://c74ebb7f8d1a43c187d5f0ca5756e1a5@sentry.n.netease.com/1
+
+[defaults]
+url = https://sentry.n.netease.com/
+project = e-booking
+org = sentry

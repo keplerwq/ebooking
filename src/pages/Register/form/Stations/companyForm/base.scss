@@ -1,0 +1,24 @@
+.m-sation-base {
+  .m-upload-wrapper {
+    display: inline-block;
+  }
+  .u-upload-desc {
+    display: inline-block;
+  }
+  .ant-btn > .anticon + span,
+  .ant-btn > span + .anticon {
+    margin-left: 2px;
+  }
+  .ant-btn .anticon {
+    font-size: 14px;
+  }
+  .u-data-item {
+      .ant-calendar-picker {
+          width: 100%;
+      }
+  }
+  .ant-upload-list-item {
+    max-width: 348px;
+  }
+
+}

@@ -1,0 +1,1 @@
+文档请参考 `front-end/adminis-entry` 项目的 AuthTree 文档，若无权限请联系该仓库管理员。[查看文档](https://git.n.netease.com/front-end/adminis-entry/blob/master/src/authTree/README.md);

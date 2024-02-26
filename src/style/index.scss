@@ -1,0 +1,11 @@
+$solid-color: #ccc;// 边框线颜色
+$menu-backgroud-color: #13263E; // 菜单背景色
+$primary-color: #2e87ed; // 主色调
+$header-height: 60px; // header高度
+$sider-height: 40px;
+$font-black: #666666 !important;
+$title-color: #333333 !important;
+
+@import './_app.scss';
+@import './_ant-reset.scss';
+@import './_utilities.scss';

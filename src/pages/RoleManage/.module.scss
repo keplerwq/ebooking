@@ -1,0 +1,48 @@
+.header {
+    background: #fff;
+    padding: 16px;
+    margin: 0;
+}
+
+.content {
+    background: #fff;
+    padding: 16px;
+    margin: 20px;
+}
+
+.input {
+    width: 260px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 20px;
+    &:last-child {
+        padding-right: 0;
+    }
+
+    span {
+        word-spacing: normal;
+        white-space: nowrap;
+        color: #666;
+    }
+}
+
+.select {
+    width: 100%;
+}
+
+.toRight {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.toLeft {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.table {
+    margin-top: 20px;
+}

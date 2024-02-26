@@ -1,0 +1,32 @@
+.desc {
+  color: #c4c4c4;
+}
+
+.main {
+  display: block;
+  margin-top: 32px;
+}
+
+.downloadTemplate {
+  float: left;
+}
+
+.content {
+  width: 100%;
+  min-height: 240px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.uploadContent {
+  width: 100%;
+  min-height: 150px;
+}
+
+.contentTitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 8px 0;
+}

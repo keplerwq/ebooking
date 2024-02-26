@@ -1,0 +1,43 @@
+.base-notice {
+  .b-header {
+    padding-left: 18px;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    margin: 16px 18px;
+    &:before {
+      content: "";
+      width: 0;
+      height: 100%;
+      border: 2px solid #3369e5;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  .ant-btn-primary[disabled],
+  .ant-btn-primary[disabled]:hover,
+  .ant-btn-primary[disabled]:focus,
+  .ant-btn-primary[disabled]:active,
+  .ant-btn-primary[disabled].active {
+    background-color: #aaaaaa;
+    color: #fff;
+  }
+  .b-content {
+    padding: 30px 0;
+    margin: 0 18px;
+    text-align: center;
+    // height: 800px;
+    background-color: #fff;
+  }
+
+  .b-button {
+    text-align: center;
+    margin: 10px 0 20px;
+  }
+  .preview-btn {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}

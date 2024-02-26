@@ -1,0 +1,20 @@
+.g-table-content {
+  margin-top: 10px;
+
+  .u-searcher {
+    display: flex;
+    justify-content: flex-end;
+    height: 32px;
+    margin: 10px 0;
+    .ant-input {
+      width: 300px;
+      float: right;
+    }
+  }
+
+  .nasa-grid {
+    border: 1px solid #eeeeee;
+    padding-bottom: 30px;
+    min-height: 125px;
+  }
+}

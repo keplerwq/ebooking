@@ -1,0 +1,53 @@
+.pdf-preview {
+  // padding: 30px 0;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  // overflow-x: scroll;
+  max-width: 1152px;
+  .react-pdf__Page__canvas {
+    margin: 0 auto;
+    border: 3px solid#d0d2d3;
+  }
+  .react-pdf__Page__annotations {
+    height: 0!important;
+  }
+  .react-pdf__Page__canvas {
+    max-width: 1152px;
+    // overflow-x: scroll;
+  }
+  .page-wrapper {
+    position: absolute;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    bottom: 0;
+    // bottom: 32px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgba(206, 206, 206, 0.6);
+    // width: inherit;
+    .ant-btn {
+      margin: 0 5px;
+    }
+    .preview-btn {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+  }
+  .page-count {
+    color: #4681fe;
+    font-size: 16px;
+    padding: 0 50px;
+  }
+
+  .ant-btn-primary[disabled],
+  .ant-btn-primary[disabled]:hover,
+  .ant-btn-primary[disabled]:focus,
+  .ant-btn-primary[disabled]:active,
+  .ant-btn-primary[disabled].active {
+    background-color: #aaaaaa;
+    color: #fff;
+  }
+}

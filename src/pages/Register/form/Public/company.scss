@@ -1,0 +1,128 @@
+$font-color: #333;
+$radius: 8px;
+
+
+.m-public-company{
+  // text-align: center;
+
+  .m-upload-wrapper {
+    display: inline-block;
+  }
+  .u-upload-desc {
+    line-height: 22px;
+    display: inline-block;
+    p {
+      margin-bottom: 0px;
+    }
+  }
+  .ant-input-number-handler-wrap {
+    display: none;
+  }
+  .ant-upload-list-item {
+    max-width: 128px;
+  }
+  .m-upload-wrapper1{
+    display: inline-block;
+  }
+  .u-upload-desc1 {
+    line-height: 22px;
+    display: inline-block;
+    p {
+      margin-bottom: 0px;
+    }
+  }
+  .u-form {
+    width: 100%;
+    margin: 0 auto;
+
+    .ant-card {
+      width:100% !important;
+      
+       .ant-card-body{
+        &:last-child{
+          padding:15px ;
+        }
+        }
+      
+        .table-bank {
+          width: 100%;
+          .ant-table-thead{
+            width:100%;
+          }
+        }
+    }
+    
+    .u-radio-gp {
+      text-align: left;
+    }
+
+    .u-next {
+      margin: 50px 0;
+      text-align: center;
+     
+      button {
+        width: 130px;
+        height: 36px;
+      }
+    }
+
+    .m-tel {
+      .u-prefix {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+
+      .u-tel {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left: 0;
+      }
+    }
+    
+
+    .u-operate-icon {
+      .anticon {
+        font-size: 28px;
+        margin-top: 6px;
+      }
+      .u-uploader {
+        width: 75px;
+        height: 75px;
+      }
+    }
+
+    
+    .m-upload-has-control {
+      .ant-upload.ant-upload-select {
+        display: none;
+      }
+      .ant-upload-list-item-info {
+        padding: 0 24px 0 4px;
+      }
+      .ant-upload-list-item .anticon-close {
+        opacity: 1 !important;
+      }
+      .ant-upload-list-item .ant-upload-list-item-info {
+        background-color: inherit !important;
+      }
+    }
+   
+  .upload-body {
+    width:300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .u-upload-desc {
+    p {
+      // line-height: 20px;
+      margin-right: 5px;
+      font-size:10px;
+      color:#ccc;
+    }
+  }
+
+}
+    
+
+}

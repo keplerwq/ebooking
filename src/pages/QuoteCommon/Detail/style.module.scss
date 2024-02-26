@@ -1,0 +1,25 @@
+.content {
+  padding: 16px;
+}
+
+.quoteInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 16px 0;
+}
+
+$quoteInfoItemWidth: 33%;
+$quoteInfoLabelWidth: 12%;
+$quoteInfoValueWidth: $quoteInfoItemWidth - $quoteInfoLabelWidth;
+
+.quoteInfoLabel {
+  color: #999;
+  width: $quoteInfoLabelWidth;
+  margin: 4px 0;
+}
+
+.quoteInfoValue {
+  width: $quoteInfoValueWidth;
+  margin: 4px 0;
+}

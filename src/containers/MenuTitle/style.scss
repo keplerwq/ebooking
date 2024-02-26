@@ -1,0 +1,45 @@
+
+.g-menu-title {
+  border: 0;
+  background: #ecf1f5;
+  line-height: 40px;
+
+  .ant-menu-item {
+    top: 0;
+    border: 0;
+    border-radius: 8px 8px 0 0;
+    margin-right: 8px;
+    min-width: 140px;
+    background: #e0e8ee;
+    // transition-duration: all 0!important;
+    a {
+      text-align: center;
+      color: #8791A8;
+      &:hover {
+        color: #1890ff;
+      }
+    }
+    &:hover {
+      border: 0;
+      background: #fff;
+    }
+
+    .fontColor {
+      color: red;
+    }
+  }
+  
+}
+
+.g-tabs {
+  background: white;
+  .ant-tabs-bar {
+    margin-bottom: 0;
+  }
+  .ant-tabs-tab {
+    text-align: center;
+    min-width: 120px;
+    display: flex;
+    justify-content: center;
+  }
+}

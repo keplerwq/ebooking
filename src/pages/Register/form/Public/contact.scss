@@ -1,0 +1,33 @@
+$font-color: #333;
+$radius: 8px;
+
+
+.m-public-contact{
+  
+  .u-form {
+    width: 450px;
+    margin: 0 auto;
+
+    .ant-legacy-form-explain {
+      // text-align: center;
+    }
+
+    .ant-input {
+      height: 36px;
+    }
+
+    .u-radio-gp {
+      text-align: left;
+    }
+
+    .u-next {
+      margin: 50px 0;
+      text-align: center;
+     
+      button {
+        width: 130px;
+        height: 36px;
+      }
+    }
+  }
+}

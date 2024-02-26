@@ -1,0 +1,96 @@
+$font-color: #333;
+$radius: 8px;
+
+.m-reg{
+  width:1200px!important;
+
+.m-public-management{
+  width:1150px!important;
+
+  .ant-input-number-handler-wrap {
+    display: none;
+  }
+  .ant-upload-list-item {
+    max-width: 128px;
+  }
+  .m-upload-wrapper {
+    display: inline-block;
+  }
+  .u-upload-desc {
+    line-height: 22px;
+    display: inline-block;
+    p {
+      margin-bottom: 0px;
+    }
+  }
+  .u-form {
+    width: 100%;
+    margin: 0 auto;
+
+    .ant-card {
+      width:100% !important;
+      
+       .ant-card-body{
+       
+          padding:5px!important ;
+        
+        }
+      
+        .table-bank {
+          width: 100%;
+          .ant-table-thead{
+            width:100%;
+          }
+        }
+    }
+
+    .u-radio-gp {
+      text-align: left;
+    }
+
+ 
+   
+    .u-operate-icon {
+      .anticon {
+        font-size: 28px;
+        margin-top: 6px;
+      }
+      .u-uploader {
+        width: 75px;
+        height: 75px;
+      }
+    }
+    
+    .m-upload-has-control {
+      .ant-upload.ant-upload-select {
+        display: none;
+      }
+      .ant-upload-list-item-info {
+        padding: 0 24px 0 4px;
+      }
+      .ant-upload-list-item .anticon-close {
+        opacity: 1 !important;
+      }
+      .ant-upload-list-item .ant-upload-list-item-info {
+        background-color: inherit !important;
+      }
+    }
+  // .upload-body1{
+  //   display:flex;
+  //   flex-direction: row;
+  //   justify-content: space-around;
+  // }
+  }
+  .u-section {
+    margin-bottom: 20px;
+  }
+  .u-next {
+    margin: 50px 0;
+    text-align: center;
+    button {
+      width: 130px;
+      height: 36px;
+    }
+  }
+}
+}

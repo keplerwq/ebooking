@@ -1,0 +1,122 @@
+.m-info {
+  // background: #fff;
+  padding-bottom: 50px;
+  &.m-read-info {
+    .ant-legacy-form-item-required:before {
+      display: none;
+    }
+  }
+
+  .submitAll {
+    position: fixed;
+    bottom: 30%;
+    right: 5%;
+    z-index: 999;
+  }
+
+  .ant-legacy-form-item-label {
+    text-align: left;
+
+  }
+
+  .ant-legacy-form-item-control {
+    img {
+      margin-bottom: 4px;
+    }
+  }
+
+  .u-operate-icon {
+    .anticon {
+      font-size: 28px;
+      margin-top: 6px;
+    }
+  }
+
+  .ant-legacy-form-item {
+    margin-bottom: 0;
+  }
+  
+  .hide{
+    display: none;
+  }
+  .g-panel {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 16px 10px;
+    box-shadow: 0 0 1px #eee;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .u-hide-pwd {
+      color: #ccc;
+    }
+
+    .g-wrapper {
+      min-width: 934px;
+
+      &.m-contact {
+        margin-bottom: 16px;
+      }
+    }
+   
+    .u-ct {
+      padding: 0 15px;
+      .u-uploader{
+        width: 75px;
+        height: 75px;
+      }
+
+      .m-upload-wrapper {
+        position: relative;
+        .u-upload-desc {
+          position: absolute;
+          top: 10px;
+          left: 88px;
+          width: 100%;
+          
+          p {
+            line-height: 20px;
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .m-tel {
+      .u-prefix {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+
+      .u-tel {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left: 0;
+      }
+    }
+  }
+
+
+  .ani-jump {
+    // transform: 
+    animation: jump 0.6s;  
+  }
+
+  @keyframes jump {  
+      0% {  
+          transform: translate(0px, 200px);  
+      }
+     
+      100% {  
+          transform: translate(0px, 0px);  
+      }  
+  }
+
+  // 操作块
+  .m-operate {
+    text-align: center;
+    .ant-btn + .ant-btn {
+      margin-left: 16px;
+    }
+  }
+}

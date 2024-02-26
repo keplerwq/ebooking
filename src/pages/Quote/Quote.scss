@@ -1,0 +1,52 @@
+.g-quote {
+  .g-search {
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 16px 19px;
+  }
+
+  .g-content{
+    background: #fff;
+    padding: 10px;
+  }
+}
+
+
+.m-batch-quote {
+  color: #999;
+  label {
+    color: #999 !important;
+  }
+}
+
+
+.m-add-quote {
+  label {
+    color: #999 !important;
+  }
+
+  .ant-legacy-form-item {
+    margin-bottom: 20px;
+  }
+
+  .u-label-show {
+    margin-bottom: 16px !important;
+    .ant-legacy-form-item-label, .ant-legacy-form-item-control {
+      line-height: 18px;
+    }
+  }
+  .u-wrapper-container {
+    display: flex;
+    .u-wrapper-container-input {
+      width: 20%;
+      margin-right: 20px;
+    }
+    .u-wrapper-container-select {
+      width: 30%;
+    }
+  }
+
+  & > #m-quote-add > .ant-row {
+    margin-bottom: 10px;
+  }
+}

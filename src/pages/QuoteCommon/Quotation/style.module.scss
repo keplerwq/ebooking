@@ -1,0 +1,104 @@
+.content {
+  padding: 16px;
+}
+
+.quoteInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+$quoteInfoItemWidth: 33%;
+$quoteInfoLabelWidth: 12%;
+$quoteInfoValueWidth: $quoteInfoItemWidth - $quoteInfoLabelWidth;
+
+.quoteInfoLabel {
+  color: #999;
+  width: $quoteInfoLabelWidth;
+  margin: 4px 0;
+}
+
+.quoteInfoValue {
+  width: $quoteInfoValueWidth;
+  margin: 4px 0;
+}
+
+.quoteFormTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 55px;
+  background: #f8f8f9;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.quoteFormTitle h4 {
+  margin: 0 64px 0 16px;
+}
+
+.quoteFormTitleLabel {
+  color: #999;
+}
+
+.quoteFormTitleValue {
+  color: #333;
+  font-weight: 480;
+  margin-right: 32px;
+}
+
+.quoteFormMain {
+  padding: 16px;
+  border-bottom: 1px solid #e8e8e8;
+
+  :global {
+    .ant-form-item-has-error .ant-input-group-addon .ant-select-selector {
+      height: 30px !important;
+    }
+  }
+}
+
+.quoteFormMain form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quoteFormMain h4 {
+  margin-bottom: 32px;
+}
+
+.formMainLeft {
+  width: 50%;
+  border-right: 1px solid #e8e8e8;
+}
+
+.formMainRight {
+  margin-left: 16px;
+  width: 50%;
+}
+
+.addInput {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.addInputLeft {
+  width: 40%;
+  margin-right: 16px;
+}
+
+.submitBar {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fff;
+  box-shadow: 0px -5px 4px #eff0f3;
+  padding-left: 64px;
+}
+
+.submitPrimary {
+  margin: 16px;
+}
+

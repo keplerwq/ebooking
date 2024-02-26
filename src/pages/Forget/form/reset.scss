@@ -1,0 +1,58 @@
+$font-color: #333;
+$radius: 8px;
+
+
+.m-reset{
+
+
+  header {
+    text-align: center;
+    margin-bottom: 36px;
+    .u-tt {
+      font-weight: 900;
+    }
+    .u-subtt {
+      font-size: 12px;
+    }
+  }
+ 
+
+  .u-form {
+    width: 360px;
+    margin: 0 auto;
+
+    .ant-legacy-form-explain {
+      // text-align: center;
+    }
+
+    .ant-input {
+      height: 36px;
+    }
+
+    .u-next {
+      margin: 50px 0;
+      text-align: center;
+      button {
+        width: 130px;
+        height: 36px;
+      }
+    }
+  }
+
+  .m-intro {
+    width: 560px;
+    margin: 0 auto;
+    
+    h3 {
+      text-align: center;
+      font-weight: 900;
+      margin: 20px 0;
+    }
+
+    p {
+      color: #9a9a9a;
+      // text-align: left;
+    }
+  }
+
+}

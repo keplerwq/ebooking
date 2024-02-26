@@ -1,0 +1,125 @@
+$font-color: #333;
+$radius: 8px;
+
+
+.g-login {
+  height:100%;
+  width: 100%;
+  min-width: 1200px;
+  min-height: 760px;
+  padding-top: 50px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  background-color: #eff0f5;
+  background: url('../../resource/img/login/bg.png') no-repeat center top;
+  position: relative;
+
+  .login-bannar{
+    width: 800px;
+    height: 560px;
+    background: cornflowerblue;
+    margin-right: 20px;
+    background: url('../../resource/img/login/bg.png') no-repeat center top;
+  }
+  .m-login {
+    width: 456px;
+    height: 560px;
+    background-color: rgba(247,247,247,0.9);
+    border-radius: $radius;
+    color: $font-color;
+
+    header {
+      margin: 40px 0 30px 0;
+      text-align: center;
+
+      .u-logo {
+        margin-bottom: 18px;
+        img{
+          width: 200px;
+          height: 35px;
+
+        }
+      }
+
+      .u-salutatory {
+        margin-bottom: 45px;
+      }
+    }
+    
+
+
+    .u-form {
+      margin-top: 24px;
+      padding: 0 50px;
+
+      .u-code {
+        width: 230px;
+      }
+
+      .u-code-img {
+        width: 110px;
+        height: 40px;
+        float: right;
+      }
+
+      .u-forgot {
+        position: relative;
+        height: 40px;
+        a {
+          position: absolute;
+          right: 0;
+          top: -18px;
+          color: $font-color;
+        }
+      }
+
+      .u-submit {
+        height: 50px;
+        width: 100%;
+        letter-spacing: 4px;
+
+      }
+
+    }
+    .noAccount{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .u-footer {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      line-height: 60px;
+      background: #eff0f5;
+      border-top: 1px solid #e2e3e8;
+      text-align: center;
+      border-bottom-right-radius: $radius;
+      border-bottom-left-radius: $radius;
+    }
+
+  }
+
+  .g-ft {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    div{
+      span{
+        color: #666666;
+        a{
+          color: #666666;
+          &:hover{
+            color: #ff3333;
+          }
+        }
+      }
+    }
+  }
+}

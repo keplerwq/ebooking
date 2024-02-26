@@ -1,0 +1,42 @@
+.m-backlog {
+  .u-panel {
+    background: #fff;
+    padding: 14px 16px 47px 16px;
+    margin-bottom: 10px;
+    .m-items{
+      display: -webkit-flex;
+      display: flex;
+      flex-flow: row wrap;
+      .m-item{
+        display: -webkit-flex;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-end;
+        margin: 13px 0 0 39px;
+        .u-num{
+          font-weight: bolder;
+          font-size: 40px;
+          color: #4889EB;
+          width: 72px;
+        }
+        .u-link {
+          margin-left: 64px;
+          margin-bottom: 10px;
+        }
+        .u-name {
+          margin-left: 15px;
+          margin-bottom: 10px;
+          width: 150px;
+        }
+  
+        .u-line {
+          opacity: 0.22;
+          border-right: 1px solid #979797;
+          height: 46px;
+          width: 1px;
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+.content {
+  padding: 16px;
+}
+
+.tabs {
+  background: #fff;
+}
+
+.tab {
+  padding: 0 8px;
+}
+
+.message {
+  background: rgb(230, 73, 73);
+  padding: 2px 8px;
+  margin-left: 4px;
+  color: #fff;
+  border-radius: 40px;
+  font-style: normal;
+}
+
+.search {
+  background: #fff;
+  padding: 0 16px 16px 16px;
+}
+
+.searchInput {
+  width: 388px;
+}
+
+.searchSelect {
+  margin-left: 16px;
+  width: 200px;
+}
+
+.searchButton {
+  margin-left: 16px;
+}
+
+.list {
+  background: #fff;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.listButton {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.tableComplexItemLabel {
+  color: #999;
+}
+
+.card {
+  background: #fff;
+  padding: 16px;
+  margin-top: 16px;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.cardTitle {
+  margin-bottom: 16px;
+}
+
+.link {
+  color: #1890ff;
+  cursor: pointer;
+}

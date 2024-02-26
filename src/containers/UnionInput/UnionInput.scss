@@ -1,0 +1,19 @@
+.union-input {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 1px;
+  .ant-input {
+    border:0;
+    outline: 0;
+    &:focus {
+      outline: 0;
+      border:0;
+      -webkit-box-shadow:none;
+      box-shadow: none ;
+    }
+  }
+}
+
+ .focus {
+    border: 1px solid #49a9ee;
+  }

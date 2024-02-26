@@ -1,0 +1,285 @@
+.m-info-base {
+  // background: #fff;
+  .ant-input-affix-wrapper {
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+
+    .ant-input-suffix {
+      position: absolute;
+      right: 10px;
+      top: -10px;
+      padding: 0;
+    }
+  }
+  .ant-legacy-form-item-label {
+    white-space: normal;
+  }
+  #sation-finance .ant-table-thead > tr > th,#sation-finance .ant-table-tbody > tr > td {
+    padding: 16px 2px;
+  }
+  &.m-read-info {
+    .ant-legacy-form-item-required:before {
+      display: none;
+    }
+  }
+  .m-sub-header-status .anticon-clock-circle {
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+  .table-contact {
+    width: 100%;
+  }
+  .c-op-header {
+    margin: 16px 0;
+  }
+  .m-info .g-panel {
+    padding: 20px 10px;
+  }
+  .ant-row {
+    width: 100%;
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  // .m-edit-info {
+  //   .ant-legacy-form-item {
+  //     margin-bottom: 13px;
+  //     &:last-child {
+  //       margin-bottom: 0;
+  //     }
+  //   }
+  // }
+  .submitAll {
+    position: fixed;
+    bottom: 30%;
+    right: 5%;
+    z-index: 999;
+  }
+
+  .ant-legacy-form-item-label {
+    text-align: left;
+  }
+  .ant-col-5 {
+    color: #afafaf;
+  }
+  .ant-legacy-form-item-control {
+    img {
+      margin-bottom: 4px;
+    }
+  }
+
+  .u-operate-icon {
+    .anticon {
+      font-size: 28px;
+      margin-top: 6px;
+    }
+  }
+
+  .s-edit {
+    .ant-legacy-form-item {
+      margin-bottom: 0;
+    }
+  }
+
+  .ant-row {
+    &.ant-legacy-form-item {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .g-panel {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 16px 10px;
+    box-shadow: 0 0 1px #eee;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .u-hide-pwd {
+      color: #ccc;
+    }
+
+    .g-wrapper {
+      min-width: 934px;
+
+      &.m-contact {
+        margin-bottom: 16px;
+      }
+
+      &.second-table {
+        margin-top: 16px;
+      }
+    }
+
+    .table-contact {
+      width: 100%;
+    }
+
+    .table-bank {
+      width: 100%;
+    }
+
+    .u-ct {
+      padding: 0 15px;
+      .u-uploader {
+        width: 75px;
+        height: 75px;
+      }
+
+      // .m-upload-wrapper {
+      //   position: relative;
+      //   .u-upload-desc {
+      //     position: absolute;
+      //     top: 10px;
+      //     left: 90px;
+      //     width: 100%;
+
+      //     p {
+      //       line-height: 20px;
+      //       margin: 0;
+      //     }
+      //   }
+      // }
+    }
+
+    .m-tel {
+      .u-prefix {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+
+      .u-tel {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left: 0;
+      }
+    }
+  }
+
+  .ani-jump {
+    // transform:
+    animation: jump 0.6s;
+  }
+
+  @keyframes jump {
+    0% {
+      transform: translate(0px, 200px);
+    }
+
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+
+  // 操作块
+  .m-operate {
+    text-align: center;
+    .ant-btn + .ant-btn {
+      margin-left: 16px;
+    }
+  }
+
+  .refuse--text--container {
+    margin-left: 10px;
+    margin-top: 16px;
+  }
+  .m-sub-header {
+    border-bottom: 1px solid #f0f2f5;
+  }
+  .m-sub-header-status {
+    color: #f89f4d;
+    font-size: 14px;
+  }
+  .ant-anchor-link-title {
+    text-decoration: none !important;
+  }
+  .m-header-anchor {
+    .ant-anchor-link {
+      display: inline-block;
+      // margin: 13px 0;
+      padding: 13px 20px;
+      border-right: 1px solid #f0f2f5;
+    }
+    .ant-anchor-ink {
+      display: none !important;
+    }
+    // .ant-anchor-link-title {
+    //   display: inline-block;
+    // }
+    .ant-anchor-wrapper {
+      margin-left: 0px;
+      padding-left: 0px;
+    }
+  }
+  .m-sub-header-btns {
+    // display: inline-block;
+    margin-right: 10px;
+    float: right;
+    button {
+      margin: 0 5px;
+    }
+  }
+  .u-upload-desc {
+    margin-left: 5px;
+  }
+  .table-ant-legacy-form-item-required::before {
+    content: "";
+  }
+  .table-ant-legacy-form-item-required::after {
+    display: inline-block;
+    margin-left: 4px;
+    color: #f5222d;
+    font-family: SimSun, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    content: "*" !important;
+  }
+  .m-upload-wrapper {
+    display: inline-block;
+  }
+  .u-upload-desc {
+    line-height: 22px;
+    display: inline-block;
+    p {
+      margin-bottom: 0px;
+    }
+  }
+  .ant-input-number-handler-wrap {
+    display: none;
+  }
+  .m-upload-has-control {
+    .ant-upload.ant-upload-select {
+      display: none;
+    }
+    .ant-upload-list-item-info {
+      padding: 0 24px 0 4px;
+    }
+    .ant-upload-list-item .anticon-close {
+      opacity: 1 !important;
+    }
+    .ant-upload-list-item .ant-upload-list-item-info {
+      background-color: inherit !important;
+    }
+  }
+  .ant-anchor-link-active {
+    // box-sizing: content-box;
+    border-bottom: 2px solid #096dd9;
+  }
+  // .base-c-op-header {
+  //   padding-top:100px;
+  //   // margin-top:-100px;
+  // }
+  .ant-affix-content {
+    padding-top: 42px;
+    margin-top: -42px;
+  }
+  .ant-anchor-wrapper {
+    z-index: 1;
+  }
+  .ant-upload-list-item-name {
+    white-space: inherit;
+  }
+}

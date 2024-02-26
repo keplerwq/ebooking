@@ -1,0 +1,72 @@
+$font-color: #333;
+$radius: 8px;
+
+
+.m-company{
+  // text-align: center;
+
+
+  .u-form {
+    width: 480px;
+    margin: 0 auto;
+
+    
+
+    .u-radio-gp {
+      text-align: left;
+    }
+
+    .u-next {
+      margin: 50px 0;
+      text-align: center;
+     
+      button {
+        width: 130px;
+        height: 36px;
+      }
+    }
+
+    .m-tel {
+      .u-prefix {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+
+      .u-tel {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left: 0;
+      }
+    }
+    
+
+    .u-operate-icon {
+      .anticon {
+        font-size: 28px;
+        margin-top: 6px;
+      }
+    }
+
+    .u-uploader {
+      width: 75px;
+      height: 75px;
+    }
+
+    .m-upload-wrapper {
+      position: relative;
+      .u-upload-desc {
+        position: absolute;
+        top: 15px;
+        right: 50px;
+        width: 200px;
+        
+        p {
+          line-height: 20px;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+
+}

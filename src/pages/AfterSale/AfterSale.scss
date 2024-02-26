@@ -1,0 +1,45 @@
+.m-aftersale-manage {
+  margin-top: -28px;
+  
+  .u-label-show {
+    margin-bottom: 16px !important;
+    .ant-legacy-form-item-label, .ant-legacy-form-item-control {
+      line-height: 18px;
+    }
+  }
+
+  section {
+    margin-top: 18px;
+  }
+  .u-title {
+    color: #666;
+    line-height: 21px;
+    font-weight: bold;
+    margin: 0 0 13px 26px;
+  }
+  .m-attention {
+    margin: 16px;
+    text-align: left;
+    .u-attention-icon {
+      color: #FFAA00;
+    }
+  }
+
+  .m-status {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+  }
+
+  .m-section-status {
+    margin-left: 14px;
+  }
+  
+  .m-refuse {
+    background: #E5F0FF;
+    border: 1px solid #97C6FF;
+    width: 460px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

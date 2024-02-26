@@ -1,0 +1,44 @@
+.g-account-detail {
+  .m-row-red {
+    td {
+      background-color:#FEF8F7; 
+    }
+  }
+  .m-total {
+    background-color: #fff;
+    padding: 16px 19px 6px 19px;
+    margin-bottom: 10px;
+
+    .m-title {
+      font-weight: bold;
+    }
+  
+    .m-sub-title {
+      width: 85px;
+    }
+  
+    .m-total-info {
+      margin: 8px 0 20px 0;
+      .u-label {
+        text-align: right;
+      }
+      .u-value {
+        font-weight: bold;
+      }
+  
+      .red {
+        color: #E13737 ;
+      }
+    }
+  }
+
+  .g-content {
+    .m-button {
+      background-color: #fff;
+      position: relative;
+      button{
+        margin-right: 5px;
+      }
+    }
+  }
+}
